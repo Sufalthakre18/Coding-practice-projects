@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+.nav-button {
+    @apply p-1 rounded-full hover:bg-gray-300 transition duration-800;
+}
+
+a:hover{
+    text-decoration: underline;
+    transition: all ease-in-out ;
+}
