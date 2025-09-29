@@ -8,3 +8,10 @@ a:hover{
     text-decoration: underline;
     transition: all ease-in-out ;
 }
+
+#anchor1{
+    text-decoration: none;
+}
+#anchor2{
+    text-decoration: none;
+}
