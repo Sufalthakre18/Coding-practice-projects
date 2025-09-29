@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>google UI</title>
     <link rel="stylesheet" href="output.css">
+    
 </head>
 
 <body>
@@ -63,42 +64,62 @@
         <h1 class="text-green-500">l</h1>
         <h1 class="text-red-500">e</h1>
     </section>
-    <section class="flex justify-center mt-10">
-        <form action=""
-            class="shadow-[0_0_8px_rgba(0,0,0,0.2)] hover:shadow-[0_0_8px_rgba(0,0,0,0.4)] py-[2px] flex w-3/5 items-center gap-4 rounded-4xl px-5 ">
-            <svg class="w-5 opacity-[0.5]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-                <path
-                    d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z" />
-            </svg>
-            <input type="text" placeholder="Search Google or type a URL" class=" outline-none w-3/4 h-12 ">
-            <button class="w-8 cursor-pointer ml-14">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="google-voice-search">
-                    <g>
+
+    <section class="group flex justify-center mt-10 flex-col items-center">
+        <div class="relative w-3/5 group ">
+            <form action=""
+                class="shadow-[0_0_8px_rgba(0,0,0,0.2)] hover:shadow-[0_0_8px_rgba(0,0,0,0.4)] py-[2px] flex w-full items-center gap-4 rounded-4xl px-5 group-focus-within:rounded-b-none  transition-all duration-150">
+                <svg class="w-5 opacity-[0.5]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                    <path
+                        d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z" />
+                </svg>
+                <input type="text" placeholder="Search Google or type a URL" class=" outline-none w-3/4 h-12 ">
+                <button class="w-8 cursor-pointer ml-14">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="google-voice-search">
                         <g>
-                            <path fill="none" d="M0 0h24v24H0z"></path>
-                            <path fill="#fff" d="M1 12C1 4 4 1 12 1s11 3 11 11-3 11-11 11S1 20 1 12"></path>
-                            <path fill="#4285f4"
-                                d="M12 14.52A2.54 2.54 0 0 0 14.57 12V6.12a2.58 2.58 0 0 0-5.15 0V12A2.55 2.55 0 0 0 12 14.52Z">
-                            </path>
-                            <path fill="#34a853" d="M11.15 17.81h1.71v2.59h-1.71Z"></path>
-                            <path fill="#f4b400" d="M7.72 12H6a5.81 5.81 0 0 0 1.76 4.16L9 15a4.16 4.16 0 0 1-1.28-3Z">
-                            </path>
-                            <path fill="#ea4335"
-                                d="M12 16.2A4.33 4.33 0 0 1 9 15l-1.24 1.15A6 6 0 0 0 12 17.88 5.93 5.93 0 0 0 18 12h-1.72A4.24 4.24 0 0 1 12 16.2Z">
-                            </path>
+                            <g>
+                                <path fill="none" d="M0 0h24v24H0z"></path>
+                                <path fill="#fff" d="M1 12C1 4 4 1 12 1s11 3 11 11-3 11-11 11S1 20 1 12"></path>
+                                <path fill="#4285f4"
+                                    d="M12 14.52A2.54 2.54 0 0 0 14.57 12V6.12a2.58 2.58 0 0 0-5.15 0V12A2.55 2.55 0 0 0 12 14.52Z">
+                                </path>
+                                <path fill="#34a853" d="M11.15 17.81h1.71v2.59h-1.71Z"></path>
+                                <path fill="#f4b400"
+                                    d="M7.72 12H6a5.81 5.81 0 0 0 1.76 4.16L9 15a4.16 4.16 0 0 1-1.28-3Z">
+                                </path>
+                                <path fill="#ea4335"
+                                    d="M12 16.2A4.33 4.33 0 0 1 9 15l-1.24 1.15A6 6 0 0 0 12 17.88 5.93 5.93 0 0 0 18 12h-1.72A4.24 4.24 0 0 1 12 16.2Z">
+                                </path>
+                            </g>
                         </g>
-                    </g>
-                </svg></button>
-            <button class="w-8 cursor-pointer ml-2">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/d/d6/Google_Lens_Icon.svg"
-                    alt="Search by image" class="w-8"></button>
-        </form>
+                    </svg></button>
+                <button class="w-8 cursor-pointer ml-2">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/d/d6/Google_Lens_Icon.svg"
+                        alt="Search by image" class="w-8"></button>
+            </form>
+            <div
+                class="absolute left-0 top-full z-2 dropdown shadow-[0_4px_8px_-4px_rgba(0,0,0,0.2)]
+ rounded-b-4xl w-full opacity-0 bg-white invisible pointer-events-none group-focus-within:opacity-100 group-focus-within:visible group-focus-within:pointer-events-auto transition-all duration-150">
+                <ul class="text-[#52188c]">
+                    <li class="rounded-xl hover:bg-gray-100 p-2 px-6 flex justify-between"><span
+                            class="flex items-center  gap-3 "><img
+                                src="https://assets.streamlinehq.com/image/private/w_300,h_300,ar_1/f_auto/v1/icons/all-icons/timer-xizuqis1c1bft3afx5g9g.png/timer-417zrzd2bpc0rtyd5pzkjlg.png?_a=DATAg1AAZAA0"
+                                alt="" class="w-4 h-4 opacity-[0.5] "> chatgpt</span> <a href="#"
+                            class="text-[14px] text-gray-500 hover:text-blue-500">Delete</a>
+            </li>
+                </ul>
+            </div>
+        </div>
+
     </section>
+
     <div class="w-full flex justify-center items-center mt-6 flex-col">
         <div class="">
             <!--Doubt of uderline here: which have high priority selector or inline tailwind class-->
-            <button class="p-2 rounded-xl bg-gray-100 mx-1 px-5 hover:shadow-[0_0_2px_rgba(0,0,0,0.4)] "><a href="#" id="anchor1" class=" text-gray-800">Google Search</a></button>
-            <button class="p-2 rounded-xl bg-gray-100 mx-1 px-5 hover:shadow-[0_0_2px_rgba(0,0,0,0.4)] "><a href="#" id="anchor2" class=" text-gray-800">I'm Feeling Lucky</a></button>
+            <button class="p-2 rounded-xl bg-gray-100 mx-1 px-5 hover:shadow-[0_0_2px_rgba(0,0,0,0.4)] "><a href="#"
+                    id="anchor1" class=" text-gray-800">Google Search</a></button>
+            <button class="p-2 rounded-xl bg-gray-100 mx-1 px-5 hover:shadow-[0_0_2px_rgba(0,0,0,0.4)] "><a href="#"
+                    id="anchor2" class=" text-gray-800">I'm Feeling Lucky</a></button>
         </div>
         <div class="[&>*]:text-blue-600 text-[14px] mt-9">Google offered in:
             <a href="#">हिन्दी</a>
@@ -113,15 +134,16 @@
         </div>
     </div>
 
-    <footer class="fixed bottom-0 w-full"> 
+    <footer class="fixed bottom-0 w-full">
         <div class="bg-gray-200 w-full px-9 p-3 border-b text-[14px]"><span>India</span></div>
-    
+
         <div class="bg-gray-200 w-full px-9 p-3 flex justify-between [&>*]:text-[14px]">
-            <div class="[&>*]:mr-7 "><a href="#">Advertising</a><a href="#">Bussiness</a><a href="#">How Search Work</a></div>
+            <div class="[&>*]:mr-7 "><a href="#">Advertising</a><a href="#">Bussiness</a><a href="#">How Search Work</a>
+            </div>
             <div class="[&>*]:ml-7 "><a href="#">Privacy</a><a href="#">Terms</a><a href="#">Settings</a></div>
         </div>
     </footer>
-
+    
 
 </body>
 
